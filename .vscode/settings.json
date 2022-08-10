@@ -1,0 +1,18 @@
+{
+    "python.defaultInterpreterPath": "/home/juan/.local/share/virtualenvs/unit-test-3XXxUPSs/bin/python", 
+    "python.analysis.extraPaths": [
+        "./app"
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ]
+}
